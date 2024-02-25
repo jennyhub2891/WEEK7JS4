@@ -9,10 +9,10 @@ Use a loop to iterate through the array and calculate the average age.*/
 //my array called ages
 let ages = [3, 9, 23, 64, 2, 8, 28, 93];
 
-//This takes the length and subtracts 1 because the arra starts with 0 and subtracts the value in the 0 spot which is first in the array.
+//This takes the length and subtracts 1 because the array starts with 0 and subtracts the value in the 0 spot which is first in the array.
 let result = ages[ages.length - 1] - ages[0];
 
-console.log(`Last number minus first number is ${result}`);
+console.log(`Last number minus first number is ${result}`); //output = 90
 
 
 //Add a new age to the array.
